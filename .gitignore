@@ -10,7 +10,10 @@ venv/
 
 # Django
 db.sqlite3
-media/
+media/faces/*
+!media/faces/.gitkeep
+media/uploads/*
+!media/uploads/.gitkeep
 staticfiles/
 
 # IDE
